@@ -1,4 +1,4 @@
-.container {
+/* .container {
 	background: dodgerblue;
 	border: 4px solid midnightblue;
 	width: 400px;
@@ -15,7 +15,7 @@
 	border: 6px solid maroon;
 	width: 80px;
 	height: 80px;
-}
+} */
 
 /* .header {
 
@@ -120,3 +120,46 @@ ul {
 	align-items: center;
 
 } */
+
+body {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.container__item {
+	max-width: 200px;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* do not edit this footer */
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #eee;
+}
