@@ -164,8 +164,8 @@ img {
 	justify-content: center;
 	background: #eee;
 } */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* FIFTH EXERCISE */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html,
 body {
@@ -177,7 +177,7 @@ body {
 	margin: 0;
 	background: #aaa;
 	color: #333;
-	/* I'll give you this one for free lol */
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -247,4 +247,73 @@ button.cancel {
 	background: white;
 	border: 1px solid #ddd;
 	color: royalblue;
+} */
+
+/* SIXTH EXERCISE */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(110, 110, 110);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	gap: 15px;
+}
+
+
+
+img {
+	width: 600px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	background-color: rgba(231, 231, 231, 0.986);
+}
+
+button {
+	font-family: Roboto, sans-serif;
+	border: none;
+	border-radius: 8px;
+	background: #eee;
+	padding: 8px;
+}
+
+input {
+	border: 1px solid #ddd;
+	border-radius: 16px;
+	padding: 8px 24px;
+	width: 400px;
+	margin-bottom: 16px;
 }
